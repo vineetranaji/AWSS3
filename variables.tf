@@ -1,5 +1,5 @@
 variable "region" {
-  description = "nome od the region"
+  description = "nome of the region"
   type        = string
   default     = "sa-east-1"
 }
@@ -7,11 +7,11 @@ variable "region" {
 variable "bucket_name" {
   description = "Name of the bucket"
   type        = string
-  default     = "amauryborgesouza-bucket"
+  default     = "twotierarcitecturebucket"
 }
 
 variable "env" {
-  description = "Environment where this module is invoked."
+  description = "Environment where this module is invoked"
   type        = string
   default     = "development"
 }
